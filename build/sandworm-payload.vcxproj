@@ -22,7 +22,7 @@
     <ClCompile Include="..\src\sandworm-payload.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{192D6788-174D-4EB0-9E90-FF94DC425E95}</ProjectGuid>
+    <ProjectGuid>{0F7CC1C4-A40C-4569-A286-4BF0F694775F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SanboxEvasion01</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
