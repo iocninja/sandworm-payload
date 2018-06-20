@@ -7,7 +7,7 @@
 
 #define X_EXTERN_DLL_EXPORT			extern "C" __declspec(dllexport)
 
-#define X_ENCRYPTION_PATH_PATTERN	X_OBFUSCATED_STRING_W(L"F:\\*encrypt.me.txt")
+#define X_WALLPAPER_FILE_NAME		X_OBFUSCATED_STRING_W(L"F:\\*encrypt.me.txt")
 
 
 
@@ -18,10 +18,7 @@ BOOL WINAPI DllMain(_In_ HINSTANCE hinstDLL, _In_ DWORD fdwReason, _In_ LPVOID l
 
 X_EXTERN_DLL_EXPORT void Execute()
 {
-	WIN32_FIND_DATA wfd;
+	X_USER32_CALL(SystemParametersInfo((SPI_SETDESKWALLPAPER, 0, L"d:/flower1.jpg", SPIF_UPDATEINIFILE);
 
-	X_KERNEL32_CALL(FindFirstFileW)(X_ENCRYPTION_PATH_PATTERN, &wfd);
-
-
-
+	X_USER32_CALL(MessageBoxW)()
 }
